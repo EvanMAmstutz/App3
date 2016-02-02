@@ -14,6 +14,7 @@
 		36FA881D1B99D86800E7621B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36FA881B1B99D86800E7621B /* LaunchScreen.storyboard */; };
 		36FA88281B99D86800E7621B /* App3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FA88271B99D86800E7621B /* App3Tests.swift */; };
 		36FA88331B99D86800E7621B /* App3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FA88321B99D86800E7621B /* App3UITests.swift */; };
+		36FA88411B99DC5900E7621B /* TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FA88401B99DC5900E7621B /* TableView.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		36FA882E1B99D86800E7621B /* App3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = App3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		36FA88321B99D86800E7621B /* App3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App3UITests.swift; sourceTree = "<group>"; };
 		36FA88341B99D86800E7621B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36FA88401B99DC5900E7621B /* TableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				36FA88121B99D86800E7621B /* AppDelegate.swift */,
 				36FA88141B99D86800E7621B /* ViewController.swift */,
 				36FA88161B99D86800E7621B /* Main.storyboard */,
+				36FA88401B99DC5900E7621B /* TableView.swift */,
 				36FA88191B99D86800E7621B /* Assets.xcassets */,
 				36FA881B1B99D86800E7621B /* LaunchScreen.storyboard */,
 				36FA881E1B99D86800E7621B /* Info.plist */,
@@ -259,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				36FA88151B99D86800E7621B /* ViewController.swift in Sources */,
+				36FA88411B99DC5900E7621B /* TableView.swift in Sources */,
 				36FA88131B99D86800E7621B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
